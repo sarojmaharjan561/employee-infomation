@@ -13,6 +13,11 @@ Steps to run:
 7) php artisan db:seed 
 8) php artisan serve
 
+(if needed: npm install and npm run dev)
+
 Note: 
 		email : admin@app.com
 		password: password
+
+
+
