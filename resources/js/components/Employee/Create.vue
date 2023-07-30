@@ -9,7 +9,7 @@
             <label for="employee_email">Email</label>
             <input type="email" class="form-control" name="employee_email" id="employee_email" placeholder="name@example.com" v-model="employee_email" @change="changeEmail()" @keyup.enter="focusNext('employee_department')">
             <div class="error text-danger" v-if="!$v.employee_email.required && $v.employee_email.$dirty">Employee Email is required</div>
-            <div class="error text-danger" v-if="check_email != 0">Employee Email already taken</div>
+            <div class="error text-danger" v-if="check_email != 0">Employee Email already taken!</div>
         </div>
 
         <div class="form-group">
